@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Button from '../Button/Button';
 
 const Test = () => {
-  return (
-    <div>
-      <h2>Test Component</h2>
-      <button>Test Button</button>
-    </div>
-  )
-}
+	const handleClick = () => {
+		console.log('click fired');
+	};
+	return (
+		<div>
+			<h2>Test Component</h2>
+			<Button handleClick={handleClick} />
+		</div>
+	);
+};
 
-export default Test
+export default Test;
