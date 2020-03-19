@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import RagReport from './components/RagReport/RagReport';
 
 // components
-import MuiSelect from './components/MuiSelect/MuiSelect';
-import AxiosTest from './components/AxiosTest/AxiosTest';
+// import Mui from './components/MuiSelect/Mui';
+// import AxiosTest from './components/AxiosTest/AxiosTest';
 
 const App = () => {
 	return (
 		<>
 			{/* <h3>App.js</h3> */}
-			<MuiSelect />
-			<AxiosTest />
+			{/* <Mui /> */}
+			<RagReport />
+			{/* <AxiosTest /> */}
 		</>
 	);
 };
